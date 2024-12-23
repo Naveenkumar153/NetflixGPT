@@ -1,5 +1,21 @@
 # NetflixGPT
 
+# Features
+
+    - Login/Sign Up
+      - redirect to Browser Page
+    - Browser (after authentication)
+      - Header
+      - Main Movies
+            - Trilar in Background
+            - Titile & Descriptions
+        - Movie Suggestions
+            - MovieLists 
+    - NetflixGPT
+      - Search Bar
+      - Movie Suggestions
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
