@@ -5,10 +5,10 @@ export default function InitialScreen() {
   return (
     <div className='d-flex align-middle justify-items-start'>
        <div>
-         <NavLink to='/home'>Home</NavLink>
+         <NavLink to='home'>Home</NavLink>
        </div>
        <div>
-         <NavLink to='/browser'>Browser</NavLink>
+         <NavLink to='browser'>Browser</NavLink>
        </div>
     </div>
   )
