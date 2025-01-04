@@ -1,9 +1,9 @@
 import { RouteObject } from "react-router-dom";
 import InitialScreen from "pages/InitialScreen/InitialScreen";
 import App from "App";
-import ErrorPage from "components/Error/Error";
 import Home from "pages/Home/Home";
-import Browser from "pages/Browser/Browser";
+import Browser from "modules/browser/components/Browse/Browse";
+import ErrorPage from "shared/ui/Error/Error";
 
 export const routes: RouteObject[] = [
     {
