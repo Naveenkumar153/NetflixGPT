@@ -1,7 +1,8 @@
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Main from "../Main/Main";
 
-import Footer from "layouts/Footer/Footer"
-import Header from "layouts/Header/Header"
-import Main from "layouts/Main/Main"
+
 export default function MainWrapper() {
   return (
     <>

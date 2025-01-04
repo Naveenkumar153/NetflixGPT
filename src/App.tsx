@@ -1,4 +1,4 @@
-import MainWrapper from 'layouts/MainWrapper/MainWrapper';
+import MainWrapper from 'shared/layouts/MainWrapper/MainWrapper';
 import './App.scss';
 
 export default function App() {
