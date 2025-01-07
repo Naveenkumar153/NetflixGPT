@@ -1,9 +1,8 @@
 import { RouteObject } from "react-router-dom";
-import InitialScreen from "pages/InitialScreen/InitialScreen";
-import App from "App";
-import Home from "pages/Home/Home";
-import Browser from "modules/browser/components/Browse/Browse";
-import ErrorPage from "shared/ui/Error/Error";
+import { authRoutes } from "@/modules/auth/auth.routes";
+import ErrorPage from "@/shared/ui/Error/Error";
+import InitialScreen from "@/pages/InitialScreen/InitialScreen";
+import App from "@/App";
 
 export const routes: RouteObject[] = [
     {
@@ -12,22 +11,10 @@ export const routes: RouteObject[] = [
       errorElement:<ErrorPage/>,
       children:[
         {
-          path:'/',
-          children:[
-            {
-              path:'',
-              element: <InitialScreen/>,
-            },
-            {
-              path:'/home',
-              element: <Home/>,
-            },
-            {
-              path:'/browser',
-              element: <Browser/>,
-            },
-          ]
-        }
+          path:'',
+          element: <InitialScreen/>,
+        },
+        ...authRoutes,
       ]
     },
 ];
